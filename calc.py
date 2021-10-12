@@ -57,11 +57,13 @@ btn2 = Button(cal,padx=16,pady=16, bd=8, fg="black",command = lambda:btnclick(2)
 btn3 = Button(cal,padx=16,pady=16, bd=8, fg="black",command = lambda:btnclick(3),bg="light blue",font=('arial',20, 'bold'),text="3").grid(row=3, column=2)
 #Addition button
 btnadd = Button(cal,padx=16,pady=16, bd=8, fg="black",command = lambda:btnclick("+"),bg="light blue",font=('arial',20,'bold'),text="+").grid(row=3, column=3)
-#####################################################################################################
+#0 button
 btn0 = Button(cal,padx=16,pady=16, bd=8, fg="black",command = lambda:btnclick(0),bg="light blue",font=('arial',20, 'bold'),text="0").grid(row=4, column=0)
+#Clear button
 btnclr = Button(cal,padx=16,pady=16, bd=8, fg="black",command = btncleardisplay ,bg="light blue",font=('arial',20, 'bold'),text="C").grid(row=4, column=1)
+#Equal button
 btneql = Button(cal,padx=16,pady=16, bd=8, fg="black",command = btneqldisplay,bg="light blue",font=('arial',20, 'bold'),text="=").grid(row=4, column=2)
-#Addition button
+#Division button
 btndiv = Button(cal,padx=16,pady=16, bd=8, fg="black",command = lambda:btnclick("/"),bg="light blue",font=('arial',20, 'bold'),text="/").grid(row=4, column=3)
 
 
